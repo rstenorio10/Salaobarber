@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cidadão Barbearia - Cortes Sem Limites</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Topbar Informativa -->
+  <div class="top-bar">
+    <div class="container top-bar-container">
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span>Aberto Hoje • Até 20h</span>
+      </div>
+      <div class="top-socials">
+        <span class="social-label">Siga-nos:</span>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="nav-bar">
+      <div class="container nav-bar-menu">
+        <a href="#" class="nav-logo-group">
+          <div class="logo-icon-wrap">
+            <i class="fa-solid fa-scissors nav-icon-img"></i>
+          </div>
+          <p class="brand-title">CIDADÃO <span>BARBEARIA</span></p>
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+
+        <div class="nav-content">
+          <ul class="nav-links">
+            <li><a href="#inicio" class="active">Início</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#clientes">Clientes</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+          </ul>
+
+          <div class="mobile-socials">
+            <p>Redes Sociais</p>
+            <div class="social-icons">
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-actions">
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1,%20gostaria%20de%20agendar!" target="_blank" class="nav-btn-link">
+            <button class="nav-btn">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>Agendar Horário</span>
+            </button>
+          </a>
+
+          <label for="menu-toggle" class="hamburger-btn" aria-label="Abrir Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </label>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="sec-principal" id="inicio">
+      <div class="container sec-principal-container">
+        
+        <div class="sec-principal-foco">
+          <div class="badge-tag">
+            <i class="fa-solid fa-crown"></i> Estilo & Tradição
+          </div>
+          
+          <h1 class="title-main">
+            CIDADÃO
+            <span class="title-highlight">BARBEARIA</span>
+          </h1>
+
+          <p class="hero-description">
+            Onde a arte do corte tradicional encontra a modernidade. Garanta um visual alinhado com atendimento exclusivo e ambiente premium.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#planos" class="btn-primary">
+              <i class="fa-solid fa-scissors"></i>
+              <span>Cortes Sem Limites</span>
+            </a>
+            <a href="https://wa.me/5511999999999" target="_blank" class="btn-secondary">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+
+          <div class="hero-features">
+            <div class="feature-item">
+              <strong>+5.000</strong>
+              <span>Clientes Atendidos</span>
+            </div>
+            <div class="feature-divider"></div>
+            <div class="feature-item">
+              <strong>4.9 ★</strong>
+              <span>Avaliação Google</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sec-principal-right">
+          <div class="img-wrapper">
+            <div class="img-glow-ring"></div>
+            <img src="./img/imgPrincipal.png!w700wp" alt="Cidadão Barbearia" class="sec-right-img">
+            <div class="floating-badge">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <p class="badge-title">Qualidade VIP</p>
+                <p class="badge-sub">Mestres Barbeiros</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DIVISOR VISUAL -->
+    <div class="section-divider container">
+      <div class="divider-line"></div>
+      <div class="divider-icon">
+        <i class="fa-solid fa-scissors"></i>
+      </div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- PLANOS PROMOCIONAIS -->
+    <section class="sec-planos" id="planos">
+      <div class="container">
+        
+        <div class="plans-header">
+          <span class="section-subtitle-orange"><i class="fa-solid fa-fire"></i> Assinaturas Exclusivas</span>
+          <h2 class="section-title-orange">Planos <span>Promocionais</span></h2>
+          <p class="section-desc">Mantenha seu estilo impecável o mês todo pagando um valor fixo.</p>
+        </div>
+
+        <div class="plans-grid">
+          <!-- Card 1 -->
+          <div class="card-plano">
+            <div class="card-plano-header">
+              <h3>Plano Corte</h3>
+              <p class="plan-subtitle">Ideal para manter o cabelo alinhado</p>
+            </div>
+            <div class="plan-price">
+              <span class="currency">R$</span>
+              <span class="amount">79,90</span>
+              <span class="period">/ mês</span>
+            </div>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-circle-check"></i> Cortes ilimitados</li>
+              <li><i class="fa-solid fa-circle-check"></i> Acabamento de pezinho</li>
+              <li><i class="fa-solid fa-circle-check"></i> Lavagem e finalização</li>
+              <li><i class="fa-solid fa-circle-check"></i> Agendamento prioritário</li>
+            </ul>
+            <a href="https://wa.me/5511999999999?text=Quero%20assinar%20o%20Plano%20Corte" target="_blank" class="btn-plano">Assinar Plano</a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card-plano featured-orange">
+            <div class="popular-badge">Mais Vendido</div>
+            <div class="card-plano-header">
+              <h3>Plano Barba</h3>
+              <p class="plan-subtitle">Barba alinhada e hidratada</p>
+            </div>
+            <div class="plan-price">
+              <span class="currency">R$</span>
+              <span class="amount">89,90</span>
+              <span class="period">/ mês</span>
+            </div>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-circle-check"></i> Barba ilimitada</li>
+              <li><i class="fa-solid fa-circle-check"></i> 10% OFF em produtos</li>
+              <li><i class="fa-solid fa-circle-check"></i> Toalha quente inclusa</li>
+            </ul>
+            <a href="https://wa.me/5511999999999?text=Quero%20assinar%20o%20Plano%20Barba" target="_blank" class="btn-plano">Assinar Plano</a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card-plano">
+            <div class="card-plano-header">
+              <h3>Plano Combo VIP</h3>
+              <p class="plan-subtitle">Cuidado completo de cabelo e barba</p>
+            </div>
+            <div class="plan-price">
+              <span class="currency">R$</span>
+              <span class="amount">129,90</span>
+              <span class="period">/ mês</span>
+            </div>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-circle-check"></i> Cortes ilimitados</li>
+              <li><i class="fa-solid fa-circle-check"></i> Barba ilimitada</li>
+              <li><i class="fa-solid fa-circle-check"></i> Sobrancelha inclusa</li>
+            </ul>
+            <a href="https://wa.me/5511999999999?text=Quero%20assinar%20o%20Plano%20Combo%20VIP" target="_blank" class="btn-plano">Assinar Plano</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DIVISOR VISUAL -->
+    <div class="section-divider container">
+      <div class="divider-line"></div>
+      <div class="divider-icon">
+        <i class="fa-solid fa-scissors"></i>
+      </div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- SERVIÇOS -->
+    <section class="sec-card-servicos" id="servicos">
+      <div class="container">
+        
+        <div class="services-header">
+          <span class="section-subtitle"><i class="fa-solid fa-tag"></i> Tabela de Preços</span>
+          <h2 class="section-title">Nossos <span>Serviços</span></h2>
+          <p class="section-desc">Cortes modernos, barbearia clássica e tratamentos exclusivos.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <div class="card-servicos">
+            <div class="card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=600" alt="Corte de Cabelo Masculino" class="img-card-1">
+              <span class="duration-badge"><i class="fa-regular fa-clock"></i> 40 min</span>
+            </div>
+            <div class="card-content">
+              <h3>Cortes Tradicionais</h3>
+              <p class="card-desc">Corte na tesoura ou máquina, acabamento preciso com navalha e lavagem inclusa.</p>
+              <div class="card-footer">
+                <span class="price">R$ 40,00</span>
+                <a href="https://wa.me/5511999999999?text=Quero%20agendar%20um%20Corte" target="_blank" class="card-btn" aria-label="Agendar Corte">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card-servicos">
+            <div class="card-img-wrapper">
+              <img src="img/barba.avif" alt="Barboterapia e Modelagem" class="img-card-1">
+              <span class="duration-badge"><i class="fa-regular fa-clock"></i> 30 min</span>
+            </div>
+            <div class="card-content">
+              <h3>Barba</h3>
+              <p class="card-desc">Modelagem completa, toalha quente e alinhamento impecável com navalha.</p>
+              <div class="card-footer">
+                <span class="price">R$ 35,00</span>
+                <a href="https://wa.me/5511999999999?text=Quero%20agendar%20uma%20Barba" target="_blank" class="card-btn" aria-label="Agendar Barba">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card-servicos">
+            <div class="card-img-wrapper">
+              <img src="img/luzes-2.jfif" alt="Luzes e Platinado" class="img-card-1">
+              <span class="duration-badge"><i class="fa-regular fa-clock"></i> 1h 30min</span>
+            </div>
+            <div class="card-content">
+              <h3>Luzes / Platinado</h3>
+              <p class="card-desc">Descoloração profissional com matização e hidratação profunda.</p>
+              <div class="card-footer">
+                <span class="price">R$ 120,00</span>
+                <a href="https://wa.me/5511999999999?text=Quero%20agendar%20Luzes" target="_blank" class="card-btn" aria-label="Agendar Luzes">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DIVISOR VISUAL -->
+    <div class="section-divider container">
+      <div class="divider-line"></div>
+      <div class="divider-icon">
+        <i class="fa-solid fa-scissors"></i>
+      </div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- CLIENTES / GALERIA AUTOMÁTICA -->
+      <section class="sec-clientes" id="clientes">
+        <div class="container">
+          
+          <div class="clients-header">
+            <span class="section-subtitle"><i class="fa-solid fa-star"></i> Satisfação Garantida</span>
+            <h2 class="section-title">Nossos <span>Clientes</span></h2>
+            <p class="section-desc">Galeria de cortes, barbas e transformações feitas no Cidadão Barbearia.</p>
+          </div>
+
+          <div class="carousel-wrapper">
+            <div class="carousel-track">
+              
+              <div class="gallery-item">
+                <img src="./img/imgCliente1.jfif" alt="Corte Degradê VIP">
+                <div class="img-overlay">
+                  <span class="service-tag"><i class="fa-solid fa-scissors"></i> Corte VIP</span>
+                </div>
+              </div>
+
+              <div class="gallery-item">
+                <img src="img/imgCliente2.jfif" alt="Barboterapia">
+                <div class="img-overlay">
+                  <span class="service-tag"><i class="fa-solid fa-user-ninja"></i> Barboterapia</span>
+                </div>
+              </div>
+
+              <div class="gallery-item">
+                <img src="img/imgCliente3.jpg" alt="Combo Cabelo e Barba">
+                <div class="img-overlay">
+                  <span class="service-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Combo VIP</span>
+                </div>
+              </div>
+
+              <div class="gallery-item">
+                <img src="img/imgCliente4.avif" alt="Platinado Nevou">
+                <div class="img-overlay">
+                  <span class="service-tag"><i class="fa-solid fa-fire"></i> Nevou / Platinado</span>
+                </div>
+              </div>
+
+              <div class="gallery-item">
+                <img src="img/imgCliente5.jfif" alt="Barba Alinhada">
+                <div class="img-overlay">
+                  <span class="service-tag"><i class="fa-solid fa-scissors"></i> Barba Alinhada</span>
+                </div>
+              </div>
+
+              <!-- Duplicação dos itens para efeito de loop continuo -->
+              <div class="gallery-item">
+                <img src="./img/imgCliente1.jfif" alt="Corte Degradê VIP">
+                <div class="img-overlay">
+                  <span class="service-tag"><i class="fa-solid fa-scissors"></i> Corte VIP</span>
+                </div>
+              </div>
+
+              <div class="gallery-item">
+                <img src="img/imgCliente2.jfif" alt="Barboterapia">
+                <div class="img-overlay">
+                  <span class="service-tag"><i class="fa-solid fa-user-ninja"></i> Barboterapia</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    <!-- DIVISOR VISUAL -->
+    <div class="section-divider container">
+      <div class="divider-line"></div>
+      <div class="divider-icon">
+        <i class="fa-solid fa-scissors"></i>
+      </div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- SEÇÃO SOBRE NÓS -->
+    <section class="sec-sobre" id="sobre">
+      <div class="container sec-sobre-container">
+        
+        <div class="sobre-img-group">
+          <div class="sobre-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=800" alt="Espaço Cidadão Barbearia" class="sobre-img">
+            <div class="experience-badge">
+              <span class="exp-number">5</span>
+              <span class="exp-text">Anos de<br>Tradição</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sobre-content">
+          <span class="section-subtitle"><i class="fa-solid fa-clock-rotate-left"></i> Nossa História</span>
+          <h2 class="section-title">Mais que um corte, <span>uma tradição</span></h2>
+          
+          <p class="sobre-highlight">
+            Inaugurada em <strong>2021</strong>, a <strong>Cidadão Barbearia</strong> nasceu com o propósito de resgatar o valor do atendimento clássico masculino combinado com o estilo moderno.
+          </p>
+          
+          <p class="sobre-text">
+            Com mais de <strong>5 anos de mercado</strong>, transformamos o simples ato de cortar o cabelo em uma experiência de cuidado e convivência. Já atendemos milhares de clientes que buscam não apenas um visual impecável, mas também um ambiente exclusivo para relaxar e renovar a autoestima.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-number">2021</span>
+              <span class="stat-label">Inauguração</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">+5 Anos</span>
+              <span class="stat-label">De Mercado</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">+5.000</span>
+              <span class="stat-label">Clientes Atendidos</span>
+            </div>
+          </div>
+
+          <div class="sobre-social-actions">
+            <p class="social-title">Conecte-se conosco:</p>
+            <div class="social-buttons-wrapper">
+              <a href="https://wa.me/5511999999999" target="_blank" class="social-btn whatsapp-btn" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>WhatsApp</span>
+              </a>
+              <a href="https://instagram.com" target="_blank" class="social-btn instagram-btn" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+              <a href="https://facebook.com" target="_blank" class="social-btn facebook-btn" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+                <span>Facebook</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    
+  </main>
+
+  <!-- FOOTER / RODAPÉ -->
+<footer class="main-footer">
+  <div class="container footer-container">
+    
+    <!-- Coluna 1: Sobre & Marca -->
+    <div class="footer-col brand-col">
+      <a href="#" class="nav-logo-group">
+        <div class="logo-icon-wrap">
+          <i class="fa-solid fa-scissors nav-icon-img"></i>
+        </div>
+        <p class="brand-title">CIDADÃO <span>BARBEARIA</span></p>
+      </a>
+      <p class="footer-desc">
+        Estilo, tradição e os melhores cortes da região. Agende seu horário e venha viver essa experiência.
+      </p>
+    </div>
+
+    <!-- Coluna 2: Informações de Contato -->
+    <div class="footer-col">
+      <h4 class="footer-title">Contato & Endereço</h4>
+      <ul class="footer-info-list">
+        <li>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Rua dos Barbeiros, 150 - Centro, São Paulo - SP</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-phone"></i>
+          <span>(11) 3333-4444</span>
+        </li>
+        <li>
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>(11) 99999-8888</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Coluna 3: Horários & Redes -->
+    <div class="footer-col">
+      <h4 class="footer-title">Funcionamento</h4>
+      <p class="footer-hours">
+        <i class="fa-regular fa-clock"></i> Terça a Sábado: 09h às 20h<br>
+        <span class="closed">Domingo e Segunda: Fechado</span>
+      </p>
+      <div class="footer-socials">
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://wa.me/5511999998888" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-bottom">
+    <div class="container footer-bottom-container">
+      <p>&copy; 2026 Cidadão Barbearia. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
